@@ -134,7 +134,6 @@ class CssEditor extends React.Component {
         });
       }
     });
-
     return outPuts;
   };
 
