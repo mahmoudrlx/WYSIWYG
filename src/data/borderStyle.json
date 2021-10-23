@@ -1,0 +1,14 @@
+[
+  { "label": "none", "value": "none" },
+  { "label": "hidden", "value": "hidden" },
+  { "label": "dotted", "value": "dotted" },
+  { "label": "dashed", "value": "dashed" },
+  { "label": "solid", "value": "solid" },
+  { "label": "double", "value": "double" },
+  { "label": "groove", "value": "groove" },
+  { "label": "ridge", "value": "ridge" },
+  { "label": "inset", "value": "inset" },
+  { "label": "outset", "value": "outset" },
+  { "label": "initial", "value": "initial" },
+  { "label": "inherit", "value": "inherit" }
+]

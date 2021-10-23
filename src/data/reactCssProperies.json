@@ -1,0 +1,289 @@
+[
+  {
+    "label": "Font",
+    "dataName": "FontFamily",
+    "reactCssProperty": "fontFamily",
+    "type": "dropdown",
+    "accordion": "text",
+    "group": "Fonts"
+  },
+  {
+    "label": "Size",
+    "dataName": "FontSize",
+    "reactCssProperty": "fontSize",
+    "type": "textBox",
+    "textBoxType": "number",
+    "accordion": "text",
+    "group": "Fonts"
+  },
+
+  {
+    "label": "Units",
+    "dataName": "Units",
+    "type": "dropdown",
+    "reactCssProperty": "fontSize",
+    "accordion": "text",
+    "group": "Fonts"
+  },
+  {
+    "group": "Align",
+    "reactCssProperty": "textAlign",
+    "type": "buttons",
+    "accordion": "text",
+    "buttonIcon": "faAlignLeft",
+    "toolTip": "Align left",
+    "reactCssValue": "left"
+  },
+  {
+    "group": "Align",
+    "reactCssProperty": "textAlign",
+    "type": "buttons",
+    "accordion": "text",
+    "buttonIcon": "faAlignCenter",
+    "toolTip": "Align center",
+    "reactCssValue": "center"
+  },
+  {
+    "group": "Align",
+    "reactCssProperty": "textAlign",
+    "type": "buttons",
+    "accordion": "text",
+    "buttonIcon": "faAlignRight",
+    "toolTip": "Align right",
+    "reactCssValue": "right"
+  },
+  {
+    "group": "Align",
+    "reactCssProperty": "textAlign",
+    "type": "buttons",
+    "accordion": "text",
+    "buttonIcon": "faAlignJustify",
+    "toolTip": "Justified",
+    "reactCssValue": "justify"
+  },
+  {
+    "group": "Decoration",
+    "reactCssProperty": "textDecoration",
+    "type": "buttons",
+    "accordion": "text",
+    "buttonIcon": "faFont",
+    "toolTip": "none",
+    "reactCssValue": "none"
+  },
+  {
+    "group": "Decoration",
+    "reactCssProperty": "textDecoration",
+    "type": "buttons",
+    "accordion": "text",
+    "buttonIcon": "faUnderline",
+    "toolTip": "Underline",
+    "reactCssValue": "underline"
+  },
+  {
+    "group": "Decoration",
+    "reactCssProperty": "textDecoration",
+    "type": "buttons",
+    "accordion": "text",
+    "buttonIcon": "faStrikethrough",
+    "toolTip": "Strikethrough",
+    "reactCssValue": "line-through"
+  },
+  {
+    "group": "Style",
+    "reactCssProperty": "fontWeight",
+    "type": "buttons",
+    "accordion": "text",
+    "buttonIcon": "faBold",
+    "toolTip": "Bold",
+    "reactCssValue": "bold"
+  },
+  {
+    "group": "Style",
+    "reactCssProperty": "fontStyle",
+    "type": "buttons",
+    "accordion": "text",
+    "buttonIcon": "faItalic",
+    "toolTip": "Italic",
+    "reactCssValue": "italic"
+  },
+  {
+    "label": "Top",
+    "dataName": "margintop",
+    "reactCssProperty": "marginTop",
+    "type": "textBox",
+    "textBoxType": "number",
+    "accordion": "layout",
+    "group": "Margin"
+  },
+  {
+    "label": "Units",
+    "dataName": "Units",
+    "type": "dropdown",
+    "reactCssProperty": "marginTop",
+    "accordion": "layout",
+    "group": "Margin"
+  },
+  {
+    "label": "Right",
+    "dataName": "marginRight",
+    "reactCssProperty": "marginRight",
+    "type": "textBox",
+    "textBoxType": "number",
+    "accordion": "layout",
+    "group": "Margin"
+  },
+  {
+    "label": "Units",
+    "dataName": "Units",
+    "type": "dropdown",
+    "reactCssProperty": "marginRight",
+    "accordion": "layout",
+    "group": "Margin"
+  },
+  {
+    "label": "Bottom",
+    "dataName": "marginBottom",
+    "reactCssProperty": "marginBottom",
+    "type": "textBox",
+    "textBoxType": "number",
+    "accordion": "layout",
+    "group": "Margin"
+  },
+  {
+    "label": "Units",
+    "dataName": "Units",
+    "type": "dropdown",
+    "reactCssProperty": "marginBottom",
+    "accordion": "layout",
+    "group": "Margin"
+  },
+  {
+    "label": "Left",
+    "dataName": "marginLeft",
+    "reactCssProperty": "marginLeft",
+    "type": "textBox",
+    "textBoxType": "number",
+    "accordion": "layout",
+    "group": "Margin"
+  },
+  {
+    "label": "Units",
+    "dataName": "Units",
+    "type": "dropdown",
+    "reactCssProperty": "marginLeft",
+    "accordion": "layout",
+    "group": "Margin"
+  },
+  {
+    "label": "Top",
+    "dataName": "paddingTop",
+    "reactCssProperty": "paddingTop",
+    "type": "textBox",
+    "textBoxType": "number",
+    "accordion": "layout",
+    "group": "Padding"
+  },
+  {
+    "label": "Units",
+    "dataName": "Units",
+    "type": "dropdown",
+    "reactCssProperty": "paddingTop",
+    "accordion": "layout",
+    "group": "Padding"
+  },
+  {
+    "label": "Right",
+    "dataName": "paddingRight",
+    "reactCssProperty": "paddingRight",
+    "type": "textBox",
+    "textBoxType": "number",
+    "accordion": "layout",
+    "group": "Padding"
+  },
+  {
+    "label": "Units",
+    "dataName": "Units",
+    "type": "dropdown",
+    "reactCssProperty": "paddingRight",
+    "accordion": "layout",
+    "group": "Padding"
+  },
+  {
+    "label": "Bottom",
+    "dataName": "paddingBottom",
+    "reactCssProperty": "paddingBottom",
+    "type": "textBox",
+    "textBoxType": "number",
+    "accordion": "layout",
+    "group": "Padding"
+  },
+  {
+    "label": "Units",
+    "dataName": "Units",
+    "type": "dropdown",
+    "reactCssProperty": "paddingBottom",
+    "accordion": "layout",
+    "group": "Padding"
+  },
+  {
+    "label": "Left",
+    "dataName": "paddingLeft",
+    "reactCssProperty": "paddingLeft",
+    "type": "textBox",
+    "textBoxType": "number",
+    "accordion": "layout",
+    "group": "Padding"
+  },
+  {
+    "label": "Units",
+    "dataName": "Units",
+    "type": "dropdown",
+    "reactCssProperty": "paddingLeft",
+    "accordion": "layout",
+    "group": "Padding"
+  },
+  {
+    "label": "Width",
+    "reactCssProperty": "width",
+    "type": "textBox",
+    "textBoxType": "number",
+    "accordion": "layout",
+    "group": "Dimensions"
+  },
+  {
+    "label": "Units",
+    "dataName": "Units",
+    "type": "dropdown",
+    "reactCssProperty": "width",
+    "accordion": "layout",
+    "group": "Dimensions"
+  },
+  {
+    "label": "Height",
+    "reactCssProperty": "height",
+    "type": "textBox",
+    "textBoxType": "number",
+    "accordion": "layout",
+    "group": "Dimensions"
+  },
+  {
+    "label": "Units",
+    "dataName": "Units",
+    "type": "dropdown",
+    "reactCssProperty": "height",
+    "accordion": "layout",
+    "group": "Dimensions"
+  },
+  {
+    "type": "colorPicker",
+    "reactCssProperty": "color",
+    "accordion": "color",
+    "group": "Text Color"
+  },
+  {
+    "type": "colorPicker",
+    "reactCssProperty": "backgroundColor",
+    "accordion": "color",
+    "group": "Background Color"
+  }
+]

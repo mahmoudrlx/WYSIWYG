@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Arial",
+    "value": "Arial"
+  },
+  {
+    "label": "Verdana",
+    "value": "Verdana"
+  },
+  {
+    "label": "Helvetica",
+    "value": "Helvetica"
+  },
+  {
+    "label": "Tahoma",
+    "value": "Tahoma"
+  },
+  {
+    "label": "Trebuchet MS",
+    "value": "Trebuchet MS"
+  },
+  {
+    "label": "Times New Roman",
+    "value": "Times New Roman"
+  },
+  {
+    "label": "Georgia",
+    "value": "Georgia"
+  },
+  {
+    "label": "Garamond",
+    "value": "Garamond"
+  },
+  {
+    "label": "Courier New",
+    "value": "Courier New"
+  },
+  {
+    "label": "Brush Script MT",
+    "value": "Brush Script MT"
+  }
+]
