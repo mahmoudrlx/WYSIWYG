@@ -44,7 +44,7 @@ class App extends React.Component {
       paddingLeft: "6px",
       width: "200px",
       height: "100px",
-      boxShadow: "5px 8px 3px #000000",
+      boxShadow: "5px 8px 3px #b1a6a6",
       textShadow: "1px 1px 1px #da2fd3",
     },
     value: "1",
