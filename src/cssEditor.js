@@ -143,15 +143,15 @@ class CssEditor extends React.Component {
         <Accordion
           sx={{
             marginBottom: "10px",
-            backgroundColor: "#bc2225",
-            color: "#ffffff",
+            backgroundColor: "#f2f2f2",
+            color: "#000000",
           }}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography component={"span"} variant={"body2"}>
               Text
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ backgroundColor: "#fbe9ea" }}>
+          <AccordionDetails sx={{ backgroundColor: "#ffffff" }}>
             {this.cssComponentsGroups()
               .filter((item) => item.accordion === "text")
               .map((elem) => (
@@ -182,15 +182,15 @@ class CssEditor extends React.Component {
         <Accordion
           sx={{
             marginBottom: "10px",
-            backgroundColor: "#eb6e35",
-            color: "#ffffff",
+            backgroundColor: "#f2f2f2",
+            color: "#000000",
           }}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography component={"span"} variant={"body2"}>
               Color
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ backgroundColor: "#fdeee8" }}>
+          <AccordionDetails sx={{ backgroundColor: "#ffffff" }}>
             {this.cssComponentsGroups()
               .filter((item) => item.accordion === "color")
               .map((elem) => (
@@ -221,15 +221,15 @@ class CssEditor extends React.Component {
         <Accordion
           sx={{
             marginBottom: "10px",
-            backgroundColor: "#f4af30",
-            color: "#ffffff",
+            backgroundColor: "#f2f2f2",
+            color: "#000000",
           }}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography component={"span"} variant={"body2"}>
               Text Shadow
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ backgroundColor: "#fef6e7" }}>
+          <AccordionDetails sx={{ backgroundColor: "#ffffff" }}>
             <Typography component={"span"} variant={"body2"}>
               <Shadow
                 value={this.props.reactCssStyle["textShadow"]}
@@ -243,8 +243,8 @@ class CssEditor extends React.Component {
         <Accordion
           sx={{
             marginBottom: "10px",
-            backgroundColor: "#027474",
-            color: "#ffffff",
+            backgroundColor: "#f2f2f2",
+            color: "#000000",
           }}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography component={"span"} variant={"body2"}>
@@ -265,8 +265,8 @@ class CssEditor extends React.Component {
         <Accordion
           sx={{
             marginBottom: "10px",
-            backgroundColor: "#7c1536",
-            color: "#ffffff",
+            backgroundColor: "#f2f2f2",
+            color: "#000000",
           }}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography component={"span"} variant={"body2"}>
