@@ -251,7 +251,7 @@ class CssEditor extends React.Component {
               Box Shadow
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ backgroundColor: "#e6ffff" }}>
+          <AccordionDetails sx={{ backgroundColor: "#ffffff" }}>
             <Typography component={"span"} variant={"body2"}>
               <Shadow
                 value={this.props.reactCssStyle["boxShadow"]}
@@ -273,7 +273,7 @@ class CssEditor extends React.Component {
               Layout
             </Typography>
           </AccordionSummary>
-          <AccordionDetails sx={{ backgroundColor: "#fbe9ef" }}>
+          <AccordionDetails sx={{ backgroundColor: "#ffffff" }}>
             {this.cssComponentsGroups()
               .filter((item) => item.accordion === "layout")
               .map((elem) => (
